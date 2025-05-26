@@ -74,7 +74,7 @@ py -m pip install <module_name> --user
 
 or
 
-pip install <module_name>
+
 ```
 Install the following modules:
 pyautogui

@@ -1,7 +1,11 @@
 #!working with time
 
 import random
-import keyboard
+import keybord
+
+
+
+
 import time
 
 """
@@ -39,4 +43,39 @@ while True:
     t = time.localtime()
     print(t)
     print(time.strftime("%H",t))
+
     break
+
+hellow  = input("type your name: ")
+print( world) - #izehpyinstaller
+# Example: Using PyInstaller to Create an Executable
+
+# Step 1: Install PyInstaller
+# Open your terminal or command prompt and run:
+# pip install pyinstaller
+
+# Step 2: Create a simple Python script (example_script.py)
+print("Hello, World!")
+input("Press Enter to exit!")
+
+# Step 3: Use PyInstaller to create an executable
+# In your terminal or command prompt, navigate to the directory containing example_script.py and run:
+# pyinstaller --onefile --windowed --icon=path/to/icon.ico example_script.py
+""" pyinstaller --onefile example_script.py """
+
+# This will generate a 'dist' folder containing the executable file.
+
+# Step 4: Running the Executable
+# Navigate to the 'dist' folder and run the executable file:
+# On Windows:
+# dist\example_script.exe
+# On macOS/Linux:
+# ./dist/example_script
+
+# Step 5: Customizing the Executable
+# You can customize the executable by adding more options to the PyInstaller command.
+# For more options and customization, refer to the PyInstaller documentation:
+# https://pyinstaller.readthedocs.io/en/stable/usage.html
+# Step 6: Debugging and Troubleshooting
+# If you encounter any issues, refer to the PyInstaller documentation or seek help from the community forums.
+# https://github.com/pyinstaller/pyinstaller/issues
